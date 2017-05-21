@@ -1,1 +1,3 @@
-"# Arif-Rahman-PortFolio" 
+"# Arif-Rahman-PortFolio"
+
+For compiling sass file - install package sass-autocompile

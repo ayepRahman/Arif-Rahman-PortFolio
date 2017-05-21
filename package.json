@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "creating my portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayepRahman/Arif-Rahman-PortFolio.git"
+  },
+  "author": "Arif Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayepRahman/Arif-Rahman-PortFolio/issues"
+  },
+  "homepage": "https://github.com/ayepRahman/Arif-Rahman-PortFolio#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-ejs-layouts": "^2.3.0",
+    "express-session": "^1.15.3",
+    "method-override": "^2.3.8",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0"
+  }
+}
