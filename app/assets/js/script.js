@@ -5,5 +5,10 @@ $( document ).ready(function(){
   // parrallax effect
   $('.parallax').parallax();
 
+  // banner animation
+  setTimeout(function(){
+    $('.fly-in-text').removeClass('hidden')
+  }, 300)
+
 
 })
