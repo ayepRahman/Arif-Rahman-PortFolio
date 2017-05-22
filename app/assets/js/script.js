@@ -14,7 +14,9 @@ $( document ).ready(function(){
       loop: true
 		})
   // scrollspy - smooth scrolling to id
-  $('.scrollspy').scrollSpy();
+  $('.scrollspy').scrollSpy({
+    scrollOffset:0
+  });
 
   // responsive collapse/ fixed sideNav issue with link
   $('.button-collapse').sideNav({
