@@ -9,8 +9,33 @@
   width: 100%
   padding: 100px 80px 100px 80px
 
-.skills-col
+// development animate
+.skills-col-d
+  opacity: 0
   margin: auto
+  padding: 0 20px 20px 20px
+  border: 2px $dark-gray
+  border-style: groove
+  transform: translateX(-100px)
+  transition: all 1.5s cubic-bezier(0.43, 0.2, 0.45, 1.93)
+
+  &.pop
+    opacity: 1
+    transform: translateX(0px)
+
+// tools animate
+.skills-col-t
+  opacity: 0
+  margin: auto
+  padding: 0 20px 20px 20px
+  border: 2px $dark-gray
+  border-style: groove
+  transform: translateX(100px)
+  transition: all 1.5s cubic-bezier(0.43, 0.2, 0.45, 1.93)
+
+  &.pop
+    opacity: 1
+    transform: translateX(0px)
 
 
 .skills-col h4
@@ -21,12 +46,12 @@
   padding: 0 0 50px 0
   text-align: center
   opacity: 0
-  transform: translateX(-500px)
+  transform: translateY(50px)
   transition: all 1.5s cubic-bezier(0.43, 0.2, 0.45, 1.93)
 
   &.pop
     opacity: 1
-    transform: translateX(0px)
+    transform: translateY(0px)
 
 .skills-title h2
   text-shadow: 5px 5px rgba(31, 30, 30, 0.6)
@@ -36,4 +61,12 @@
 
 // canvas
 .canvas-container
-  margin: 100px 50px 0 50px
+  margin: 100px 120px 100px 120px
+  opacity: 0
+  // backface-visibility: visible
+  transform: perspective(600px) rotateY(180deg)
+  transition: all 1.5s ease-in-out
+
+  &.flip
+    opacity: 1
+    transform: perspective(600px) rotateY(0deg)
