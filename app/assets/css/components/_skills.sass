@@ -1,0 +1,25 @@
+.skills-container
+  position: relative
+  height: 600px
+  width: 100%
+  background-color: $white-gray
+
+// animation skill title
+.skills-title
+  padding: 0 0 50px 0
+  text-align: center
+  opacity: 0
+  transform: translateX(-500px)
+  transition: all 2s ease-in-out
+
+  &.pop
+    opacity: 1
+    transform: translateX(0px)
+
+.skills-title h2
+  text-shadow: 5px 5px rgba(31, 30, 30, 0.6)
+  padding: 5px 10px
+  border-top: 5px solid $dark-gray
+  border-bottom: 5px solid $dark-gray
+
+  // canvas
