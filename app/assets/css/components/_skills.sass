@@ -1,8 +1,17 @@
 .skills-container
   position: relative
-  height: 600px
+  height: 100%
   width: 100%
   background-color: $white-gray
+
+.skills-row
+  position: relative
+  width: 100%
+  padding: 100px 80px 100px 80px
+
+.skills-col
+  margin: auto
+  text-align: center
 
 // animation skill title
 .skills-title
@@ -10,7 +19,7 @@
   text-align: center
   opacity: 0
   transform: translateX(-500px)
-  transition: all 2s ease-in-out
+  transition: all 1.5s ease-in-out
 
   &.pop
     opacity: 1
@@ -22,4 +31,7 @@
   border-top: 5px solid $dark-gray
   border-bottom: 5px solid $dark-gray
 
-  // canvas
+// canvas
+.canvas-container
+  margin-left: 50px
+  margin-right: 50px
