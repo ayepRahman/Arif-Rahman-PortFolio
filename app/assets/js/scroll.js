@@ -25,6 +25,14 @@ $(window).scroll(function(){
 
     }
 
+    // about title
+    if (winScroll > $('.about-title').offset().top - ($(window).height() / 1.2)) {
+        console.log("about here");
+
+        $('.about-title').addClass('pop')
+
+      }
+
     // skills title
     if (winScroll > $('.skills-title').offset().top - ($(window).height() / 1.2)) {
         console.log("skills here");
@@ -33,7 +41,7 @@ $(window).scroll(function(){
 
       }
 
-    
+
 
 
 

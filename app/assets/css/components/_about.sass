@@ -6,17 +6,36 @@
   width: 100%
   padding: 100px 80px 100px 80px
 
+// animation title
+.about-title
+  padding: 0 0 50px 0
+  text-align: center
+  opacity: 0
+  transform: translateX(500px)
+  transition: all 1.5s cubic-bezier(0.43, 0.2, 0.45, 1.93)
+
+  &.pop
+    opacity: 1
+    transform: translateX(0px)
+
+.about-title h2
+  text-shadow: 5px 5px rgba(31, 30, 30, 0.6)
+  padding: 5px 10px
+  border-top: 5px solid $dark-gray
+  border-bottom: 5px solid $dark-gray
+
+
 // animation pop
 .about-col
   opacity: 0
   transform: translateY(300px)
-  transition: all 1s ease-in-out
+  transition: all 1s cubic-bezier(0.43, 0.2, 0.45, 1.93)
 
   &.pop
     opacity: 1
     transform: translateY(0px)
 
-.about-col h3
+.about-col h4
   text-shadow: 5px 5px rgba(31, 30, 30, 0.3)
 
 .person-img img
