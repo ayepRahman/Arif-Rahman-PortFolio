@@ -6,7 +6,7 @@ $(document).ready(function() {
   // banner animation
   setTimeout(function() {
     $('.fly-in-text').removeClass('hidden')
-  }, 300)
+  }, 500)
 
   // typed animation
   Typed.new('#typed', {
@@ -26,7 +26,5 @@ $(document).ready(function() {
     $('div[id^=sidenav-overlay]').remove();
   }
 
-  // fullscreen slider
-  $('.slider').slider();
 
 })
