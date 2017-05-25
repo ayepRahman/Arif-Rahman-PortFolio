@@ -8,7 +8,7 @@ let barChart = new Chart(CHART, {
       "CSS3",
       "Javascript",
       "Node.js",
-      "Ruby",
+      "Ruby On Rails",
       "React",
     ],
     datasets: [
@@ -37,7 +37,7 @@ let barChart = new Chart(CHART, {
           40,
           35,
           30,
-          20,
+          15,
           0
         ]
       }
