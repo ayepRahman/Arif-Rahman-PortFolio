@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // parrallax effect
-  $('.parallax').parallax();
+  $('.parallax').parallax(200);
 
   // banner animation
   setTimeout(function() {
