@@ -57,4 +57,19 @@ $(window).scroll(function() {
     $('.canvas-container').addClass('flip')
 
   }
+
+  // my-work animation
+  if (winScroll > $('.my-work-row').offset().top - ($(window).height() / 1.2)) {
+
+    $('.my-work-row .my-work-col').each(function(i) {
+
+      setTimeout(function() {
+        $('.my-work-row .my-work-col').eq(i).addClass('pop')
+      }, 400 * (i + 1))
+
+    })
+
+  }
+
+
 })

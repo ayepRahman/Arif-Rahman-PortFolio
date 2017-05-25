@@ -22,3 +22,16 @@
     top: 0
     bottom: 0
     width: 100%
+
+.my-work-description
+  margin-bottom: 50px
+
+// my work animation
+.my-work-col
+  opacity: 0
+  transform: translateX(500px)
+  transition: all 1s cubic-bezier(0.43, 0.2, 0.45, 1.73)
+
+  &.pop
+    opacity: 1
+    transform: translateX(0px)

@@ -32,12 +32,12 @@ let barChart = new Chart(CHART, {
         ],
         borderWidth: 2,
         data: [
+          45,
           55,
-          69,
-          50,
-          61,
-          46,
-          38,
+          40,
+          35,
+          30,
+          20,
           0
         ]
       }
