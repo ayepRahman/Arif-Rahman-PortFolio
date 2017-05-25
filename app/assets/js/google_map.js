@@ -311,7 +311,7 @@ function initMap() {
         }
       ]
     }
-  ], {name: 'Styled Map'})
+  ], {name: 'Dark Night'})
 
   var GA = {
     lat: 1.307712,
