@@ -1,7 +1,7 @@
 .contacts-container
   position: relative
   height: 100%
-  width: 100%
+  width: 100vw
   background:
     image: url(/images/lightbulb1.jpg)
     repeat: no-repeat
@@ -19,12 +19,23 @@
     transform: translateX(0px)
 
 .contacts-title h3
-  text-shadow: 5px 5px rgba(31, 30, 30, 0.6)
+  // text-shadow: 5px 5px rgba(31, 30, 30, 0.6)
   padding: 5px 10px
   margin-top: 0
   border-top: 5px solid $dark-gray
   border-bottom: 5px solid $dark-gray
 
+// contact descripion
+.contacts-description
+  margin-bottom: 50px
+
+// contacts-wrap
+.contacts-wrap
+  padding: 0 0 100px 100px
+
+// contact-ul
+.contacts-ul li
+  padding-bottom: 3px
 
 #map
   height: 400px

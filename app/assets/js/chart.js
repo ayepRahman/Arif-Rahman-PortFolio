@@ -7,9 +7,9 @@ let barChart = new Chart(CHART, {
       "HTML5",
       "CSS3",
       "Javascript",
-      "Node.js",
-      "Ruby On Rails",
-      "React",
+      "Jquery",
+      "Bootstrap",
+      "Materialize",
     ],
     datasets: [
       {
@@ -32,12 +32,12 @@ let barChart = new Chart(CHART, {
         ],
         borderWidth: 2,
         data: [
-          45,
           55,
+          59,
           40,
-          35,
-          30,
-          15,
+          40,
+          45,
+          50,
           0
         ]
       }
