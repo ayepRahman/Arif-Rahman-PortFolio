@@ -11,8 +11,8 @@
   padding: 0 0 50px 0
   text-align: center
   opacity: 0
-  transform: translateX(-500px)
-  transition: all 1.5s cubic-bezier(0.43, 0.2, 0.45, 1.93)
+  transform: translateX(500px)
+  transition: all 1s cubic-bezier(0.43, 0.2, 0.45, 1.93)
 
   &.pop
     opacity: 1
@@ -36,8 +36,20 @@
 // contact-ul
 .contacts-ul li
   padding-bottom: 3px
+  opacity: 0
+  transform: translateX(-300px)
+  transition: all 1s cubic-bezier(0.43, 0.2, 0.45, 1.93)
+
+  &.pop
+    opacity: 1
+    transform: translateX(0px)
 
 #map
+  opacity: 0
   height: 400px
   width: 450px
   border: 5px solid rgba(255,255,255,0.6)
+  transition: all 2s ease-in-out
+
+  &.fade-in
+    opacity: 1

@@ -73,7 +73,14 @@ $(window).scroll(function() {
 
   }
 
-  // my-work animation
+  // my work title animate
+  if (winScroll > $('.my-work-title').offset().top - ($(window).height() / 1.2)) {
+
+    $('.my-work-title').addClass('pop')
+
+  }
+
+  // my-work grid animate
   if (winScroll > $('.my-work-row').offset().top - ($(window).height() / 1.2)) {
 
     $('.my-work-row .my-work-col').each(function(i) {
@@ -93,7 +100,25 @@ $(window).scroll(function() {
 
   }
 
+  // contact descripion li animate
+  if (winScroll > $('.contacts-ul').offset().top - ($(window).height() / 1.2)) {
 
+    $('.contacts-ul li').each(function(i) {
+
+      setTimeout(function() {
+        $('.contacts-ul li').eq(i).addClass('pop')
+      }, 150 * (i + 1))
+
+    })
+
+  }
+
+  // google map fade in
+  if (winScroll > $('#map').offset().top - ($(window).height() / 1.2)) {
+
+    $('#map').addClass('fade-in')
+
+  }
 
 
 
