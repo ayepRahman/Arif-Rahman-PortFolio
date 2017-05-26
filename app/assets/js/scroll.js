@@ -2,6 +2,21 @@ $(window).scroll(function() {
 
   var winScroll = $(this).scrollTop()
 
+  // banner fly-in-text
+  $('.fly-in-text').css({
+    'transform':'translate(-50%, '+ winScroll/2 +'%)'
+  })
+
+  // banner typed-wrap
+  $('.typed-wrap').css({
+    'transform':'translate(0px, '+ winScroll/2 +'%)'
+  })
+
+  // banner typed-wrap
+  $('.hire-me-wrap').css({
+    'transform':'translate(0px, '+ winScroll/2 +'%)'
+  })
+
   // navbar animation
   if (winScroll > $('.navbar-fixed').offset().top) {
 
@@ -70,6 +85,21 @@ $(window).scroll(function() {
     })
 
   }
+
+  // contacts title animation
+  if (winScroll > $('.contacts-title').offset().top - ($(window).height() / 1.2)) {
+
+    $('.contacts-title').addClass('pop')
+
+  }
+
+
+
+
+
+
+
+
 
 
 })
