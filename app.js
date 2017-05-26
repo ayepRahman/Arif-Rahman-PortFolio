@@ -7,7 +7,6 @@ var path = require('path')
 var bodyParser = require('body-parser')
 // require dotenv
 require('dotenv').config()
-var GOOGLE_API = process.env.GOOGLE_API
 
 // setup views and static folder
 app.set('view engine', 'ejs')
