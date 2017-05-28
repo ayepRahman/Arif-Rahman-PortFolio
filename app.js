@@ -28,7 +28,8 @@ const routes = require('./config/router')
 app.use('/', routes)
 
 // set port and listen
-app.set('port', (process.env.PORT || 5000))
+var newport = process.env.PORT || 5000
+app.set('port', (newport))
 app.listen(app.get('port'), function() {
-    console.log('myportfolio http://localhost ' + app.get('port'))
+    console.log('myportfolio http://localhost ' + newport)
 })
