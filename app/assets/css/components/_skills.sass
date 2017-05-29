@@ -15,13 +15,16 @@
   width: 100%
   padding: 100px 80px 100px 80px
 
+// skill-ul
+.skills-ul li
+  font-family: $font-marck
+  font-size: 22px
+
 // development animate
 .skills-col-d
   opacity: 0
   margin: auto
   padding: 0 20px 20px 20px
-  // border: 2px $dark-gray
-  // border-style: groove
   transform: translateX(-100px)
   transition: all 1s cubic-bezier(0.43, 0.2, 0.45, 1.93)
 
@@ -29,20 +32,21 @@
     opacity: 1
     transform: translateX(0px)
 
+// .skills-col-d:hover
+//   background-color: $dark-gray
+
 // tools animate
 .skills-col-t
   opacity: 0
   margin: auto
   padding: 0 20px 20px 20px
-  // border: 2px $dark-gray
-  // border-style: groove
   transform: translateX(100px)
   transition: all 1s cubic-bezier(0.43, 0.2, 0.45, 1.93)
+  z-index: 0
 
   &.pop
     opacity: 1
     transform: translateX(0px)
-
 
 .skills-col h5
   text-shadow: 5px 5px rgba(31, 30, 30, 0.3)
@@ -53,6 +57,7 @@
   text-align: center
   opacity: 0
   transition: all 2s cubic-bezier(0.43, 0.2, 0.45, 1.93)
+  font-family: $font-marck
 
   &.pop
     opacity: 1
@@ -67,7 +72,6 @@
 .canvas-container
   margin: 80px 20px 120px 20px
   opacity: 0
-  // backface-visibility: visible
   transform: perspective(600px) rotateY(180deg)
   transition: all 1s ease-in-out
 
