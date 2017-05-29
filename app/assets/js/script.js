@@ -26,5 +26,8 @@ $(document).ready(function() {
     $('div[id^=sidenav-overlay]').remove();
   }
 
+  // textarea
+  $('#textarea1').val('');
+  $('#textarea1').trigger('autoresize')
 
 })
