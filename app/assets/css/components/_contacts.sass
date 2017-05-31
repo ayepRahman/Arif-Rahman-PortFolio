@@ -45,7 +45,7 @@
 #map
   opacity: 0
   height: 400px
-  width: 550px
+  width: 100%
   margin: 50px 0 50px 0
   border: 5px solid rgba(255,255,255,0.6)
   transition: all 2s ease-in-out
@@ -107,3 +107,17 @@ textarea.materialize-textarea:focus:not([readonly])
   &.show
     opacity: 1
     transform: translateX(0px)
+
+.contacts-btn
+  position: relative
+  text-align: center
+  width: 100%
+
+.contacts-btn-color
+  background-color: $dark-gray
+
+.contacts-btn-color:focus
+  background-color: $dark-gray
+
+.contacts-btn-color:hover
+  background-color: #bbbbbb
