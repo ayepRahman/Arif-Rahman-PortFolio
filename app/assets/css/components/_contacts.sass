@@ -95,3 +95,15 @@ textarea.materialize-textarea:focus:not([readonly])
 
 .contacts-inputs:hover
   background-color: #bbbbbb
+
+
+// inputs animation
+.inputs-hidden
+  padding-bottom: 3px
+  opacity: 0
+  transform: translateX(500px)
+  transition: all 1s cubic-bezier(0.43, 0.2, 0.45, 1.93)
+
+  &.show
+    opacity: 1
+    transform: translateX(0px)

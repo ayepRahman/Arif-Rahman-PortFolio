@@ -14,6 +14,7 @@ $(document).ready(function() {
     typeSpeed: 50,
     loop: true
   })
+  
   // scrollspy - smooth scrolling to id
   $('.scrollspy').scrollSpy({scrollOffset: 70});
 

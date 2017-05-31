@@ -120,6 +120,18 @@ $(window).scroll(function() {
 
   }
 
+  // inputs animation
+  if (winScroll > $('.inputs-form').offset().top - ($(window).height() / 1.2)) {
+
+    $('.inputs-form .inputs-hidden').each(function(i) {
+
+      setTimeout(function() {
+        $('.inputs-hidden').eq(i).addClass('show')
+      }, 150 * (i + 1))
+
+    })
+
+  }
 
 
 
