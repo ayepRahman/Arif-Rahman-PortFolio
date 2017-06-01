@@ -28,23 +28,33 @@ I'm a creative front-end developer recently graduate from General Assembly, base
 
 * [Typed.js](https://github.com/mattboldt/typed.js/)
 
-* ![Typed.js e.g](http://i.imgur.com/Vg9G1ps.png)
+* ![videos img](http://i.imgur.com/Sv8jF5L.png)
+
+* ![transtion property img](http://i.imgur.com/WRo8Ldl.png)
+
+* ![Typed.js e.g img](http://i.imgur.com/Vg9G1ps.png)
 
 * [Transition: translate](https://www.youtube.com/watch?v=-iOdDz2LnEk&t=413s)
 
-* ![Animation Iteration for div](http://i.imgur.com/Rwnnrfa.png)
+* ![Animation Iteration for div img](http://i.imgur.com/Rwnnrfa.png)
 
-* ![Animation Iteration for div CSS](http://i.imgur.com/aOz9Ix9.png)
+* ![Animation Iteration for div CSS img](http://i.imgur.com/aOz9Ix9.png)
 
 * [Parallax](https://www.youtube.com/watch?v=WTZpNAbz3jg&t=1518s)
 
-* ![Cubic Bezier](http://i.imgur.com/MYP3pao.png)
+* ![Cubic Bezier img](http://i.imgur.com/MYP3pao.png)
 
-* ![Cubic Bezier 2](http://i.imgur.com/ui5GZ59.png)
+* ![Cubic Bezier 2 img](http://i.imgur.com/ui5GZ59.png)
+
+* [Google Api - Google Map](https://developers.google.com/maps/documentation/javascript/?hl=en_US)
+
+* [Snazzy](https://snazzymaps.com/)
+
+* ![snazzymaps img](http://i.imgur.com/KnyeQej.png)
 
 * [Form Spree](https://formspree.io/)
 
-* ![Form spree](* ![Cubic Bezier 2](http://i.imgur.com/ui5GZ59.png)
+* ![Form spree img](http://i.imgur.com/ui5GZ59.png)
 
 
 
@@ -74,3 +84,8 @@ I'm a creative front-end developer recently graduate from General Assembly, base
 * Adding Chat Box
 
 * Using React for front-end interface
+
+
+**Credit**
+
+* Seth , Vikas , Raymond and all the others that comment on how to improve my project
