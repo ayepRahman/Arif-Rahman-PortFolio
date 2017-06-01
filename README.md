@@ -28,19 +28,33 @@ I'm a creative front-end developer recently graduate from General Assembly, base
 
 * [Typed.js](https://github.com/mattboldt/typed.js/)
 
+* I added a mp4 convert screeshot video playe using VLC and added it to the video img tags
+
 * ![videos img](http://i.imgur.com/Sv8jF5L.png)
+
+* Transition property
 
 * ![transtion property img](http://i.imgur.com/WRo8Ldl.png)
 
+* Typed.js
+
 * ![Typed.js e.g img](http://i.imgur.com/Vg9G1ps.png)
 
+* Animation for the transition: translate
+
 * [Transition: translate](https://www.youtube.com/watch?v=-iOdDz2LnEk&t=413s)
+
+* Iteration of the animation
 
 * ![Animation Iteration for div img](http://i.imgur.com/Rwnnrfa.png)
 
 * ![Animation Iteration for div CSS img](http://i.imgur.com/aOz9Ix9.png)
 
+* Parallax
+
 * [Parallax](https://www.youtube.com/watch?v=WTZpNAbz3jg&t=1518s)
+
+* Cubic Bezier(timing function) that created the bouncing effect of my animation
 
 * ![Cubic Bezier img](http://i.imgur.com/MYP3pao.png)
 
