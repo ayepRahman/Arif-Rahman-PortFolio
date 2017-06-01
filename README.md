@@ -40,6 +40,10 @@ I'm a creative front-end developer recently graduate from General Assembly, base
 
 * ![Typed.js e.g img](http://i.imgur.com/Vg9G1ps.png)
 
+* Using window on scroll function
+
+* ![on scroll](http://i.imgur.com/6iBmLNF.png)
+
 * Animation for the transition: translate
 
 * [Transition: translate](https://www.youtube.com/watch?v=-iOdDz2LnEk&t=413s)
