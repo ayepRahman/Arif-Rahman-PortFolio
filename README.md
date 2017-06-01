@@ -88,4 +88,4 @@ I'm a creative front-end developer recently graduate from General Assembly, base
 
 **Credit**
 
-* Seth , Vikas , Raymond and all the others that comment on how to improve my project
+* John, Seth, Vikas, Raymond and all the others that comment on how to improve my project
