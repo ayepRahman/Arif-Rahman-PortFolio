@@ -26,7 +26,7 @@ $(window).scroll(function() {
   }
 
   // about animation
-  if (winScroll > $('.about-row').offset().top - ($(window).height() / 1.2)) {
+  if (winScroll > $('.about-row').offset().top - ($(window).height() / 1.3)) {
 
     $('.about-row .about-col').each(function(i) {
 

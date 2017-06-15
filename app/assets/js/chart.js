@@ -15,11 +15,11 @@ let barChart = new Chart(CHART, {
       {
         label: "Skills %",
         backgroundColor: [
-          'rgb(222, 222, 222)',
+          'rgba(31, 30, 30, 1)',
           'rgba(105, 105, 105, 1)',
-          'rgb(222, 222, 222)',
+          'rgba(31, 30, 30, 1)',
           'rgba(105, 105, 105, 1)',
-          'rgb(222, 222, 222)',
+          'rgba(31, 30, 30, 1)',
           'rgba(105, 105, 105, 1)',
         ],
         borderColor: [
