@@ -67,11 +67,11 @@ $(window).scroll(function() {
   }
 
   // canvas flip animate
-  if (winScroll > $('.canvas-container').offset().top - ($(window).height() / 1.2)) {
-
-    $('.canvas-container').addClass('flip')
-
-  }
+  // if (winScroll > $('.canvas-container').offset().top - ($(window).height() / 1.2)) {
+  //
+  //   $('.canvas-container').addClass('flip')
+  //
+  // }
 
   // my work title animate
   if (winScroll > $('.my-work-title').offset().top - ($(window).height() / 1.2)) {
