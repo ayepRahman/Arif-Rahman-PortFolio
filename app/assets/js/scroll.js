@@ -114,11 +114,11 @@ $(window).scroll(function() {
   }
 
   // google map fade in
-  if (winScroll > $('#map').offset().top - ($(window).height() / 1.2)) {
-
-    $('#map').addClass('fade-in')
-
-  }
+  // if (winScroll > $('#map').offset().top - ($(window).height() / 1.2)) {
+  //
+  //   $('#map').addClass('fade-in')
+  //
+  // }
 
   // inputs animation
   if (winScroll > $('.inputs-form').offset().top - ($(window).height() / 1.2)) {
