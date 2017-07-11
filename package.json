@@ -4,7 +4,7 @@
   "description": "creating my portfolio",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ayepRahman/Arif-Rahman-PortFolio#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "devicon": "^2.0.0",
     "dotenv": "^4.0.0",
     "ejs": "^2.5.6",
     "express": "^4.15.3",

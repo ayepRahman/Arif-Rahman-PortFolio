@@ -32,7 +32,7 @@ $(window).scroll(function() {
 
       setTimeout(function() {
         $('.about-row .about-col').eq(i).addClass('pop')
-      }, 150 * (i + 1))
+      }, 200 * (i + 1))
 
     })
 
