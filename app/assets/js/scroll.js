@@ -59,12 +59,12 @@ $(window).scroll(function() {
 
   }
 
-  // tools animate
-  if (winScroll > $('.skills-col-t').offset().top - ($(window).height() / 1.2)) {
-
-    $('.skills-col-t').addClass('pop')
-
-  }
+  // // tools animate
+  // if (winScroll > $('.skills-col-t').offset().top - ($(window).height() / 1.2)) {
+  //
+  //   $('.skills-col-t').addClass('pop')
+  //
+  // }
 
   // canvas flip animate
   // if (winScroll > $('.canvas-container').offset().top - ($(window).height() / 1.2)) {
