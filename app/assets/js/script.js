@@ -11,7 +11,7 @@ $(document).ready(function() {
   // typed animation
   Typed.new('#typed', {
     stringsElement: document.getElementById('typed-strings'),
-    typeSpeed: 50,
+    typeSpeed: 30,
     loop: true
   })
 
@@ -21,7 +21,6 @@ $(document).ready(function() {
   $('.button-collapse').sideNav({closeOnClick: true})
 
   $('.button-collapse').click(removeOverlay);
-
 
   function removeOverlay() {
     $('div[id^=sidenav-overlay]').remove();
