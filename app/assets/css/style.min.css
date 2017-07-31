@@ -9,7 +9,7 @@ nav a{color:#1f1e1e}
 .profile-inner{background:none repeat scroll 0 0 rgba(60,70,80,.7);height:100%;left:0;padding:20px;position:absolute;top:0;width:100%}
 .pp-container img{border-radius:50%;border-style:double;border-width:3px;width:25%;height:25%;display:block}
 #sidenav-overlay{background-color:transparent}
-.parallax-container{position:relative;height:720px;max-width:100%;background-image:url(/images/pixel.png);background-size:cover;background-repeat:no-repeat;background-attachment:fixed}
+.parallax-container{position:relative;height:720px;max-width:100%;background-image:url(/images/laptop_1.jpg);background-size:cover;background-repeat:no-repeat}
 .banner-container{width:100%;padding-top:5px}
 .hire-me-wrap{position:absolute;top:400px;width:100%;text-align:center;padding-top:50px}
 .black-btn{background-color:#1d1d1d}
@@ -55,7 +55,7 @@ strong{background-color:rgba(255,255,255,.2);padding-left:5px;padding-right:5px}
 .person-desc ul li span{display:inline-block;min-width:70px}
 .fun-ul li{padding-bottom:10px;font-size:20px}
 .skills-wrap{margin:0 50px 0 50px}
-.skills-container{position:relative;height:100%;width:100%;background-color:#7942b1;background-image:linear-gradient(to bottom,#474747,#fff 100%);background-repeat:no-repeat;background-size:contain;background-attachment:fixed}
+.skills-container{position:relative;height:100%;width:100%;background-color:#7942b1;background-image:linear-gradient(to bottom,#bdbdbd,#fff 100%);background-repeat:no-repeat;background-size:contain;background-attachment:fixed}
 .skills-row{position:relative;width:100%;padding:100px 80px 100px 80px}
 .skills-col-d h4{text-align:center}
 .skills-ul li{max-width:100px;display:inline-block;font-size:5em}
