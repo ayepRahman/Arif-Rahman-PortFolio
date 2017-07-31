@@ -18,12 +18,12 @@ $(window).scroll(function() {
   })
 
   // navbar animation
-  if (winScroll > $('.navbar-fixed').offset().top) {
+  // if (winScroll > $('.navbar-fixed').offset().top) {
 
-    $('nav').removeClass('grey lighten-4').addClass('transition-opacity')
-  } else {
-    $('nav').addClass('grey lighten-4').removeClass('transition-opacity')
-  }
+  //   $('nav').removeClass('grey lighten-4').addClass('transition-opacity')
+  // } else {
+  //   $('nav').addClass('grey lighten-4').removeClass('transition-opacity')
+  // }
 
   // about animation
   if (winScroll > $('.about-row').offset().top - ($(window).height() / 1.3)) {
